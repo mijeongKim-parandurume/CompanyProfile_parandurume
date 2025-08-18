@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>파란두루미(주) 기업 포트폴리오</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #F8F9FA;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        .brand-gradient {
+            background: linear-gradient(90deg, #005F73, #0A9396);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="brand-gradient text-white text-center py-16 px-4">
+        <h1 class="text-4xl md:text-6xl font-black text-shadow">파란두루미(주)</h1>
+        <p class="mt-4 text-xl md:text-2xl font-light text-shadow">현실의 한계를 넘어: 시간과 공간을 재정의하는 XR 솔루션</p>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+
+        <section id="introduction" class="my-12">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-[#005F73] mb-4">우리는 기존 XR 기술의 한계에 도전합니다</h2>
+                <p class="text-lg text-gray-600">
+                    파란두루미는 독자적인 확장현실(XR) 솔루션 'Leonar3Do'를 통해 기존 HMD(Head-Mounted Display) 기반 기술이 가진 고립감과 불편함을 해결합니다. 우리의 목표는 사용자가 더 오랫동안 편안하게 몰입하며, 교육, 의료, 협업 등 다양한 분야에서 생산성을 극대화할 수 있는 새로운 차원의 경험을 제공하는 것입니다.
+                </p>
+            </div>
+        </section>
+
+        <section id="solution" class="my-16">
+            <div class="bg-white rounded-lg shadow-lg p-6 md:p-10">
+                <h2 class="text-3xl font-bold text-center text-[#005F73] mb-8">핵심 솔루션: Leonar3Do</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="flex flex-col items-center">
+                        <div class="text-6xl mb-4 text-[#0A9396]">🖥️</div>
+                        <h3 class="text-xl font-bold mb-2">PC 기반 시스템</h3>
+                        <p class="text-gray-600">기존 PC 환경에 부가 장치를 연결하여 HMD 없이도 완벽한 3D 가상현실을 구현합니다.</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="text-6xl mb-4 text-[#0A9396]">✋</div>
+                        <h3 class="text-xl font-bold mb-2">정교한 핸드 트래킹</h3>
+                        <p class="text-gray-600">Leap Motion 기술을 활용하여 사용자의 손 움직임을 정밀하게 추적하고 직관적인 상호작용을 제공합니다.</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="text-6xl mb-4 text-[#0A9396]">🔄</div>
+                        <h3 class="text-xl font-bold mb-2">VR/AR 유연한 전환</h3>
+                        <p class="text-gray-600">필요에 따라 가상현실(VR)과 증강현실(AR) 모드를 자유롭게 전환하며 작업 효율을 높입니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="vision" class="my-16">
+            <h2 class="text-3xl font-bold text-center text-[#005F73] mb-8">파란두루미의 비전: 시간과 공간의 재정의</h2>
+            <p class="text-lg text-gray-600 max-w-4xl mx-auto text-center mb-10">
+                우리의 기술은 단순히 새로운 경험을 제공하는 것을 넘어, 인류가 마주한 물리적 제약을 극복하는 것을 목표로 합니다. '시간 이동'과 '공간 이동'은 이러한 비전을 구체화한 핵심 개념입니다.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center items-stretch gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-8 flex-1">
+                    <h3 class="text-2xl font-bold text-[#CA6702] mb-4">⏳ 시간 이동 (Time Shifting)</h3>
+                    <p class="text-gray-600">
+                        정해진 일정에 구애받지 않고, 사용자가 원하는 바로 그 시간에 필요한 경험을 할 수 있게 합니다. 의대생은 언제든 가상 수술실에서 실습을 반복할 수 있고, 직장인은 시차 없이 글로벌 회의에 참여할 수 있습니다.
+                    </p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-8 flex-1">
+                    <h3 class="text-2xl font-bold text-[#CA6702] mb-4">🌐 공간 이동 (Space Shifting)</h3>
+                    <p class="text-gray-600">
+                        물리적 위치의 제약 없이 원격 협업을 하거나 가상 공간을 탐험합니다. 전 세계의 엔지니어들이 하나의 가상 모델을 보며 실시간으로 협업하고, 학생들은 교실에서 고대 유적지를 탐사할 수 있습니다.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="market-focus" class="my-16">
+             <h2 class="text-3xl font-bold text-center text-[#005F73] mb-8">전략적 시장: 차세대 의료 교육 선도</h2>
+             <p class="text-lg text-gray-600 max-w-4xl mx-auto text-center mb-10">
+                우리는 무한한 XR 시장의 잠재력 속에서, 가장 시급하고 중요한 문제를 해결할 수 있는 '의료 교육' 분야에 집중하고 있습니다. HMD의 불편함이 없는 저희 솔루션은 장시간의 정밀한 훈련이 필수적인 의료 교육에 최적화되어 있습니다.
+            </p>
+            <div class="bg-white rounded-lg shadow-lg p-6 md:p-10">
+                <div class="chart-container">
+                    <canvas id="marketFocusChart"></canvas>
+                </div>
+                <p class="text-center text-gray-500 mt-4">파란두루미의 B2B 확장 전략</p>
+            </div>
+        </section>
+
+        <section id="milestones" class="my-16">
+            <h2 class="text-3xl font-bold text-center text-[#005F73] mb-12">주요 성과: 기술력과 시장성의 증명</h2>
+            <div class="relative max-w-4xl mx-auto">
+                <div class="border-l-4 border-[#0A9396] absolute h-full top-0 left-1/2 -ml-0.5"></div>
+                <div class="mb-8 flex justify-between items-center w-full right-auto">
+                    <div class="order-1 w-5/12"></div>
+                    <div class="z-20 flex items-center order-1 bg-[#0A9396] shadow-xl w-12 h-12 rounded-full">
+                        <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
+                    </div>
+                    <div class="order-1 bg-white rounded-lg shadow-xl w-5/12 px-6 py-4">
+                        <h3 class="font-bold text-gray-800 text-xl">CES 2025 참가</h3>
+                        <p class="text-sm leading-snug tracking-wide text-gray-600">광명시 대표 혁신 기업으로 선정, 세계 최대 IT 박람회에서 글로벌 기술력을 입증하고 해외 시장 진출의 교두보를 마련했습니다.</p>
+                    </div>
+                </div>
+                <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-auto">
+                    <div class="order-1 w-5/12"></div>
+                    <div class="z-20 flex items-center order-1 bg-[#0A9396] shadow-xl w-12 h-12 rounded-full">
+                        <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
+                    </div>
+                    <div class="order-1 bg-white rounded-lg shadow-xl w-5/12 px-6 py-4">
+                        <h3 class="font-bold text-gray-800 text-xl">가천대 길병원 MOU 체결</h3>
+                        <p class="text-sm leading-snug tracking-wide text-gray-600">AI와 XR을 활용한 차세대 의료 교육 솔루션 공동 개발 협약. 기술의 실용성을 국내 최고 의료 기관에서 검증받은 결정적 마일스톤입니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="market-growth" class="my-16">
+            <h2 class="text-3xl font-bold text-center text-[#005F73] mb-8">글로벌 XR 시장의 폭발적 성장</h2>
+            <p class="text-lg text-gray-600 max-w-4xl mx-auto text-center mb-10">
+                확장현실(XR) 시장은 5G 기술의 발전과 몰입형 원격 교육 수요 증가에 힘입어 전례 없는 속도로 성장하고 있습니다. 파란두루미는 이 거대한 흐름의 중심에서 시장을 선도할 준비가 되어 있습니다.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-lg shadow-lg p-6 md:p-10">
+                    <div class="text-center">
+                         <p class="text-7xl font-black text-[#EE9B00]">42.36%</p>
+                         <p class="text-xl font-bold text-gray-700 mt-2">연평균 성장률 (CAGR)</p>
+                         <p class="text-gray-500">(2025-2030년 예측)</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 md:p-10">
+                     <div class="chart-container h-64 md:h-auto">
+                        <canvas id="marketGrowthChart"></canvas>
+                    </div>
+                    <p class="text-center text-gray-500 mt-4">글로벌 XR 시장 규모 예측</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="competitive-advantage" class="my-16">
+            <h2 class="text-3xl font-bold text-center text-[#005F73] mb-8">독보적인 경쟁 우위</h2>
+            <p class="text-lg text-gray-600 max-w-4xl mx-auto text-center mb-10">
+                경쟁이 치열한 XR 시장에서 파란두루미는 '사용자 경험'이라는 본질에 집중하여 차별화된 가치를 제공합니다. HMD의 한계를 극복한 우리의 접근 방식은 시장의 판도를 바꿀 것입니다.
+            </p>
+            <div class="bg-white rounded-lg shadow-lg p-6 md:p-10">
+                <div class="chart-container">
+                    <canvas id="competitorChart"></canvas>
+                </div>
+                <p class="text-center text-gray-500 mt-4">주요 의료 XR 솔루션 접근 방식 비교</p>
+            </div>
+        </section>
+
+        <section id="roadmap" class="my-16">
+            <h2 class="text-3xl font-bold text-center text-[#005F73] mb-12">미래를 향한 로드맵</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-[#94D2BD] text-[#005F73] rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold mb-2">시장 확장</h3>
+                    <p>의료 교육 성공 사례를 기반으로 항공, 국방, 제조업 등 고도의 훈련이 필요한 B2B 시장으로 진출합니다.</p>
+                </div>
+                <div class="bg-[#E9D8A6] text-[#CA6702] rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold mb-2">기술 고도화</h3>
+                    <p>AI 기반 맞춤형 학습 기능을 도입하고, 시뮬레이션 콘텐츠를 다양화하여 교육 효과를 극대화합니다.</p>
+                </div>
+                <div class="bg-[#EE9B00] text-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold mb-2">글로벌 비전</h3>
+                    <p>ODA 사업 연계 등을 통해 저개발국 의료 인력 양성을 지원하며 글로벌 사회적 가치를 실현합니다.</p>
+                </div>
+                <div class="bg-[#BB3E03] text-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-bold mb-2">전략적 투자 유치</h3>
+                    <p>독보적인 기술력과 검증된 시장성을 바탕으로 스케일업을 위한 적극적인 투자 유치를 추진합니다.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white text-center p-8">
+        <p class="font-bold text-xl">파란두루미(주식회사)</p>
+        <p class="mt-2">미래의 경험을 오늘, 현실로 만듭니다.</p>
+        <a href="http://paranduru.me" target="_blank" class="mt-4 inline-block bg-[#0A9396] hover:bg-[#005F73] text-white font-bold py-2 px-4 rounded">
+            홈페이지 방문하기
+        </a>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const wrapLabel = (str, maxWidth) => {
+                if (str.length <= maxWidth) {
+                    return str;
+                }
+                const words = str.split(' ');
+                let lines = [];
+                let currentLine = '';
+                words.forEach(word => {
+                    if ((currentLine + word).length > maxWidth) {
+                        lines.push(currentLine.trim());
+                        currentLine = '';
+                    }
+                    currentLine += word + ' ';
+                });
+                lines.push(currentLine.trim());
+                return lines;
+            };
+
+            const tooltipTitleCallback = (tooltipItems) => {
+                const item = tooltipItems[0];
+                let label = item.chart.data.labels[item.dataIndex];
+                if (Array.isArray(label)) {
+                    return label.join(' ');
+                } else {
+                    return label;
+                }
+            };
+            
+            const sharedTooltipOptions = {
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            title: tooltipTitleCallback
+                        }
+                    }
+                }
+            };
+
+            const marketFocusCtx = document.getElementById('marketFocusChart').getContext('2d');
+            new Chart(marketFocusCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['의료 교육', '항공/국방 훈련', '제조업 시뮬레이션', '기타 전문분야'],
+                    datasets: [{
+                        label: 'B2B 시장 집중도',
+                        data: [55, 20, 15, 10],
+                        backgroundColor: ['#0A9396', '#94D2BD', '#E9D8A6', '#EE9B00'],
+                        borderColor: '#FFFFFF',
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        title: {
+                            display: true,
+                            text: 'B2B 목표 시장 비중'
+                        },
+                        tooltip: sharedTooltipOptions.plugins.tooltip
+                    }
+                }
+            });
+
+            const marketGrowthCtx = document.getElementById('marketGrowthChart').getContext('2d');
+            new Chart(marketGrowthCtx, {
+                type: 'line',
+                data: {
+                    labels: ['2025', '2026', '2027', '2028', '2029', '2030'],
+                    datasets: [{
+                        label: '시장 규모 (단위: 억 달러)',
+                        data: [450, 640, 910, 1290, 1830, 2600],
+                        fill: true,
+                        backgroundColor: 'rgba(148, 210, 189, 0.2)',
+                        borderColor: '#0A9396',
+                        tension: 0.4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: sharedTooltipOptions.plugins.tooltip
+                    }
+                }
+            });
+            
+            const competitorCtx = document.getElementById('competitorChart').getContext('2d');
+            const rawLabels = [
+                '장시간 사용 편의성', 
+                '사용자 고립감 해소', 
+                '초기 도입 비용', 
+                'VR/AR 전환 유연성'
+            ];
+            const wrappedLabels = rawLabels.map(label => wrapLabel(label, 16));
+
+            new Chart(competitorCtx, {
+                type: 'bar',
+                data: {
+                    labels: wrappedLabels,
+                    datasets: [
+                        {
+                            label: '파란두루미 (PC 기반)',
+                            data: [90, 95, 70, 85],
+                            backgroundColor: '#0A9396',
+                            borderColor: '#005F73',
+                            borderWidth: 1
+                        },
+                        {
+                            label: '경쟁사 (HMD 기반)',
+                            data: [40, 30, 60, 50],
+                            backgroundColor: '#EE9B00',
+                            borderColor: '#CA6702',
+                            borderWidth: 1
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: {
+                                callback: function(value) {
+                                    return value + "%"
+                                }
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        title: {
+                            display: true,
+                            text: '솔루션 경쟁력 비교 (상대적 평가)'
+                        },
+                        tooltip: sharedTooltipOptions.plugins.tooltip
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
