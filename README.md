@@ -5,7 +5,7 @@
 
 참고 영상: https://www.youtube.com/watch?v=qWZua_tWDMQ
 
-[![참고 영상 바로보기](https://img.youtube.com/vi/qWZua_tWDMQ/0.jpg)](https://youtu.be/qWZua_tWDMQ)
+[![참고 영상 바로보기](https://github.com/user-attachments/assets/7907a1c1-dc1d-46cc-8b74-c857f1de7691)](https://youtu.be/qWZua_tWDMQ)
 
 **1부: 제미나이로 기업 포트폴리오 인포그래픽 제작 방법 🚀**
 
