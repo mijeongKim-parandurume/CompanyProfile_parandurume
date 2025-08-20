@@ -158,6 +158,4 @@ URL은 보통 https://[YOUR_GITHUB_USERNAME].github.io/[YOUR_REPOSITORY_NAME]/ �
 
 <img width="1334" height="715" alt="image" src="https://github.com/user-attachments/assets/5b58de95-3127-4f17-ba9a-945fa15c2789" />
 
-이제 여러분의 웹페이지가 전 세계에 공개되었습니다! 궁금한 점이 있으시면
-
-이제 여러분의 웹페이지가 공개되었습니다! 
+이제 여러분의 웹페이지가 전 세계에 공개되었습니다!
