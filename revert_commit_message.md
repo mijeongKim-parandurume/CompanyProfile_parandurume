@@ -1,0 +1,1 @@
+Reverted commit with message: 회사 소개 이미지 하나 추가
