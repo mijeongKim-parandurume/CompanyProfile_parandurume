@@ -3,7 +3,11 @@
 이 가이드는 제미나이를 활용하여 기업 소개 포트폴리오를 효율적으로 제작하는 단계를 설명합니다.  
 파란두루미(주) 사례처럼 기업의 핵심 정보를 분석하고 시각화하는 방법을 배울 수 있습니다.  
 
-참고 영상: https://www.youtube.com/watch?v=qWZua_tWDMQ
+참고 영상: 
+
+1부) https://youtu.be/giK5gAuQpII
+
+2부) https://youtu.be/vTZROY261K8
 
 [![참고 영상 바로보기](https://github.com/user-attachments/assets/7907a1c1-dc1d-46cc-8b74-c857f1de7691)](https://youtu.be/qWZua_tWDMQ)
 
